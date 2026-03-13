@@ -23,10 +23,10 @@ export default function Batsman (){
                 run > 100 && <p>Your Score: 100</p>
             }
             {
-                four > 1 && <p>Total Four:{four}</p>
+                four > 0 && <p>Total Four:{four}</p>
             }
             {
-              six >1 && <p>Total Six:{six} </p>
+              six >0 && <p>Total Six:{six} </p>
             }
 
             <h1>Score: {run}</h1>
